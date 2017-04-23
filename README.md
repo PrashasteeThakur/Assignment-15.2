@@ -28,6 +28,15 @@ Gradle combines good parts of both tools and builds on top of them with DSL and 
 
 Gradle does not use XML. Instead, it had its own DSL based on Groovy (one of JVM languages). As a result, Gradle build scripts tend to be much shorter and clearer than those written for Ant or Maven. The amount of boilerplate code is much smaller with Gradle since its DSL is designed to solve a specific problem: move software through its life cycle, from compilation through static analysis and testing until packaging and deployment.
 
-Initially, Gradle used Apache Ivy for its dependency management. Later own it moved to its own native dependency 
+Initially, Gradle used Apache Ivy for its dependency management. Later own it moved to its own native dependency resolution engine.
+Gradle effort can be summed as “convention is good and so is flexibility”.
+
+SBT:
+
+Sbt is an open source build tool for Scala and Java projects, similar to Java's Maven or Ant.
+
+Its main features are:
+
+native support for compiling Scala code and integrating with many Scala test frameworks build descriptions written in Scala using a DSL dependency management using Ivy (which supports Maven-format repositories) continuous compilation, testing, and deployment integration with the Scala interpreter for rapid iteration and debugging support for mixed Java/Scala projects
 
 
