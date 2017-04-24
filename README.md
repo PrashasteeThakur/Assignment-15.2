@@ -8,7 +8,15 @@ SBT is very simple and it is focused on Scala it relies on Ivy for dependency ma
 Maven
 Maven it's a great build tool and it enables to control the entire software lifecycle with XML files. Using the Project Object Model you can intercept all points of the software lifecycle from compile to test, packaging and deploy. Maven has it's own dependency manager. Issue in Maven is the XML syntax, writing a POM can be annoying and too much expensive.
 
+Gradle
 We can not compare Gradle with Maven (or SBT). Gradle is built on top of Maven, Ant and Ivy. It uses Maven repositories. Gradle doesn't use XML, it's a polyglot build tool. It combines the Ant API with the Groovy language to enable developers to write a build script with an intuitive DSL. With a few lines of code you can write a Gradle build script that can do the same things that Maven can do. With Gradle you can define your own task with the Groovy language and intercept programmatically your build execution. This functional approach is not for all developers,infact Maven it's good if you don't want this behavior in your build environment. Both Maven and Gradle have plugins to integrate your build with technologies used in your projects.
+
+SBT:
+Sbt is an open source build tool for Scala and Java projects, similar to Java's Maven or Ant.
+
+Its main features are:
+
+native support for compiling Scala code and integrating with many Scala test frameworks build descriptions written in Scala using a DSL dependency management using Ivy (which supports Maven-format repositories) continuous compilation, testing, and deployment integration with the Scala interpreter for rapid iteration and debugging support for mixed Java/Scala projects
 
 Maven
 Maven was released in 2004. Its goal was to improve upon some of the problems developers were facing when using Ant.
@@ -30,13 +38,4 @@ Gradle does not use XML. Instead, it had its own DSL based on Groovy (one of JVM
 
 Initially, Gradle used Apache Ivy for its dependency management. Later own it moved to its own native dependency resolution engine.
 Gradle effort can be summed as “convention is good and so is flexibility”.
-
-SBT:
-
-Sbt is an open source build tool for Scala and Java projects, similar to Java's Maven or Ant.
-
-Its main features are:
-
-native support for compiling Scala code and integrating with many Scala test frameworks build descriptions written in Scala using a DSL dependency management using Ivy (which supports Maven-format repositories) continuous compilation, testing, and deployment integration with the Scala interpreter for rapid iteration and debugging support for mixed Java/Scala projects
-
 
